@@ -1,0 +1,127 @@
+body {
+  background-color: #bcb8b8;
+  color: #000000;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+}
+
+.mid {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: #010c06;
+}
+
+.start {
+  background-color: #ccd4b7;
+  padding: 11px 22px;
+  margin: 25px 15px;
+  border-radius: 80px;
+}
+
+.start:hover {
+  color: #e90f0f;
+  background-color: whitesmoke;
+}
+
+.navber {
+  display: inline-block;
+}
+
+.navber li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navber li a {
+  color: #e05310;
+  text-decoration: none;
+  padding: 37px 23px;
+  margin: 10px -10px;
+  font-size: larger;
+  font-family: fantasy;
+}
+
+.left img {
+  width: 187px;
+  padding: 19px 75px;
+  border-color: black;
+  margin: -75px -50px;
+  filter: invert(100%);
+}
+
+.right {
+  padding: 20px 30px;
+}
+.right:hover {
+  color: #02eaff;
+}
+
+.head {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  /* background-color: #d1e0d8; */
+  padding: 48px 135px;
+  margin: 235px 125px;
+  /* border: 2px solid black; */
+}
+.image {
+  position: absolute;
+  margin: 70px 20px;
+  padding: 3px 12px;
+}
+
+.container1 {
+  /* border: 3px solid palegoldenrod; */
+  width: 500px;
+  right: 13px;
+  top: 0px;
+  margin: 275px -80px;
+  padding: 66px 60px;
+  position: absolute;
+}
+
+.para1 {
+  width: 500px;
+  right: 13px;
+  top: 0px;
+  margin: 450px -80px;
+  padding: 70px 60px;
+  position: absolute;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  /* font-family: 'Poppins', sans-serif;*/
+}
+
+.para2 {
+  width: 500px;
+  right: 13px;
+  top: 0px;
+  margin: 545px -78px;
+  padding: 70px 60px;
+  position: absolute;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+.cl {
+  background-color: #000000;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: -8px -8px;
+  padding: 25px 69px;
+}

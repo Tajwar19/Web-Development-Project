@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(Img/barbell-1839086_960_720.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.class {
+  color: #cae908;
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 20px;
+}
+
+.mid {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: #010c06;
+}
+
+.start {
+  background-color: #ccd4b7;
+  padding: 10px 22px;
+  border-radius: 20px;
+}
+
+.start:hover {
+  color: #e90f0f;
+  background-color: whitesmoke;
+}
+
+.navber {
+  display: inline-block;
+}
+
+.navber li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navber li a {
+  color: #e05310;
+  text-decoration: none;
+  padding: 37px 23px;
+  margin: 10px 3px;
+  font-size: larger;
+  font-family: fantasy;
+}
+
+.left img {
+  width: 187px;
+  padding: 3px 75px;
+  border-color: black;
+  margin: -75px -50px;
+  filter: invert(100%);
+}
+
+.right {
+  padding: 20px 30px;
+}
+.right:hover {
+  color: #02eaff;
+}
+
+.cont {
+  color: #ff0266;
+  position: absolute;
+  margin: 110px 100px;
+  padding: 50px 80px;
+  width: 670px;
+  font-size: -webkit-xxx-large;
+}
+
+.hs {
+  color: #02ff78;
+  position: absolute;
+  margin: 70px 100px;
+  padding: 50px 80px;
+}
